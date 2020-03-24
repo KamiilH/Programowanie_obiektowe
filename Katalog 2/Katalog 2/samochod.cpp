@@ -1,19 +1,9 @@
 #include "samochod.h"
 using namespace std;
 
-	fstream plik;// uzywane w funkcji "wczytaj" i "zapisz"
-	int x;// uzywane w funkcji "usun"
-	int temp3 = -1; //uzywane w funkcji "po_parametrach"
-	int p; //uzyw. w c1 "po_parametrach", 
-	short int t; //uzyw. w c4., c5., c6. "po_parametrach"
-	float g; // uzyw w c2. c3. "po_parametrach"
-	string e; // uzyw w c9. c.10 w "po_parametrach"
-	int temp2; //uzyw w "posortowane"
-
-
 samochod* wczytaj(int* i)
 {
-	//fstream plik;
+	fstream plik;
 	plik.open("katalog2.txt", ios::in);
 	if (plik.good() == false)
 	{
@@ -37,7 +27,7 @@ samochod* wczytaj(int* i)
 }
 void zapisz(int i, samochod kat[])
 {
-	//fstream plik;
+	fstream plik;
 	plik.open("katalog2.txt", ios::out);
 	if (plik.good() == false)
 	{
@@ -94,13 +84,13 @@ istream& operator>> (istream& wejscie, samochod& n)
 }
 samochod* usun(int* i, samochod kat[])
 {
-	//int x;
+	int x;
 	cout << "Samochod o jakim numerze chcesz usunac? Nr: "; cin >> x;
-	if (x > * i)
+	if (x >= * i)
 	{
 		cout << "Nie ma samochodu o takim numerze!" << endl;
 	}
-	else if (*i	 >= x)
+	else if (*i	 > x)
 	{
 		samochod* nowa = new samochod[*i - 1];
 		for (int j = 0; j < *i-1; j++)
@@ -150,14 +140,22 @@ void wypis_wszystkich(int i, samochod kat[])
 		cout << "Moc: " << kat[j].moc << endl;
 		cout << "Przebieg: " << kat[j].przebieg << endl;
 		if (kat[j].skrzynia == 1)
+		{
 			cout << "Skrzynia: Manualna" << endl << endl;
+		}
 		else
+		{
 			cout << "Skrzynia: Automatyczna" << endl << endl;
+		}
 	}
 }
 void po_parametrach(int i, samochod kat[])
 {
-//int temp3=-1;
+int temp3=-1;
+int p;
+short int t;
+float g;
+string e;
 while (temp3 != 0)
 {
 	{
@@ -180,7 +178,6 @@ while (temp3 != 0)
 	{
 	case 1:
 	{
-		//int p;
 		cout << "Maksymalny przebieg to: "; cin >> p;
 		for (int j = 0; j < i; j++)
 		{
@@ -193,16 +190,19 @@ while (temp3 != 0)
 				cout << "Moc: " << kat[j].moc << endl;
 				cout << "Przebieg: " << kat[j].przebieg << endl;
 				if (kat[j].skrzynia == 1)
+				{
 					cout << "Skrzynia: Manualna" << endl << endl;
+				}
 				else
+				{
 					cout << "Skrzynia: Automatyczna" << endl << endl;
+				}
 			}
 		}
 		break;
 	}
 	case 2:
 	{
-		// float p; zastapiony przez float g 
 		cout << "Maksymalna pojemnosc silnika: "; cin >> g;
 		for (int j = 0; j < i; j++)
 		{
@@ -215,16 +215,19 @@ while (temp3 != 0)
 				cout << "Moc: " << kat[j].moc << endl;
 				cout << "Przebieg: " << kat[j].przebieg << endl;
 				if (kat[j].skrzynia == 1)
+				{
 					cout << "Skrzynia: Manualna" << endl << endl;
+				}
 				else
+				{
 					cout << "Skrzynia: Automatyczna" << endl << endl;
+				}
 			}
 		}
 		break;
 	}
 	case 3:
 	{
-		//float p; //zastapione przez float g
 		cout << "Minimalna pojemnosc silnika: "; cin >> g;
 		for (int j = 0; j < i; j++)
 		{
@@ -237,16 +240,19 @@ while (temp3 != 0)
 				cout << "Moc: " << kat[j].moc << endl;
 				cout << "Przebieg: " << kat[j].przebieg << endl;
 				if (kat[j].skrzynia == 1)
+				{
 					cout << "Skrzynia: Manualna" << endl << endl;
+				}
 				else
+				{
 					cout << "Skrzynia: Automatyczna" << endl << endl;
+				}
 			}
 		}
 		break;
 	}
 	case 4:
 	{
-		//short int p; //zastapione short int t
 		cout << "Minimalna moc silnika: "; cin >> t;
 		for (int j = 0; j < i; j++)
 		{
@@ -259,16 +265,19 @@ while (temp3 != 0)
 				cout << "Moc: " << kat[j].moc << endl;
 				cout << "Przebieg: " << kat[j].przebieg << endl;
 				if (kat[j].skrzynia == 1)
+				{
 					cout << "Skrzynia: Manualna" << endl << endl;
+				}
 				else
+				{
 					cout << "Skrzynia: Automatyczna" << endl << endl;
+				}
 			}
 		}
 		break;
 	}
 	case 5:
 	{
-		//short int p; //zastapione short int t
 		cout << "Maksymalny rok wyprodukowania: "; cin >> t;
 		for (int j = 0; j < i; j++)
 		{
@@ -281,16 +290,19 @@ while (temp3 != 0)
 				cout << "Moc: " << kat[j].moc << endl;
 				cout << "Przebieg: " << kat[j].przebieg << endl;
 				if (kat[j].skrzynia == 1)
+				{
 					cout << "Skrzynia: Manualna" << endl << endl;
+				}
 				else
+				{
 					cout << "Skrzynia: Automatyczna" << endl << endl;
+				}
 			}
 		}
 		break;
 	}
 	case 6:
 	{
-		//short int p; //zastapione short int t
 		cout << "Minimalny rok wyprodukowania: "; cin >> t;
 		for (int j = 0; j < i; j++)
 		{
@@ -303,9 +315,13 @@ while (temp3 != 0)
 				cout << "Moc: " << kat[j].moc << endl;
 				cout << "Przebieg: " << kat[j].przebieg << endl;
 				if (kat[j].skrzynia == 1)
+				{
 					cout << "Skrzynia: Manualna" << endl << endl;
+				}
 				else
+				{
 					cout << "Skrzynia: Automatyczna" << endl << endl;
+				}
 			}
 		}
 		break;
@@ -323,9 +339,13 @@ while (temp3 != 0)
 				cout << "Moc: " << kat[j].moc << endl;
 				cout << "Przebieg: " << kat[j].przebieg << endl;
 				if (kat[j].skrzynia == 1)
+				{
 					cout << "Skrzynia: Manualna" << endl << endl;
+				}
 				else
+				{
 					cout << "Skrzynia: Automatyczna" << endl << endl;
+				}
 			}
 		}
 		break;
@@ -343,16 +363,19 @@ while (temp3 != 0)
 				cout << "Moc: " << kat[j].moc << endl;
 				cout << "Przebieg: " << kat[j].przebieg << endl;
 				if (kat[j].skrzynia == 1)
+				{
 					cout << "Skrzynia: Manualna" << endl << endl;
+				}
 				else
+				{
 					cout << "Skrzynia: Automatyczna" << endl << endl;
+				}
 			}
 		}
 		break;
 	}
 	case 9:
 	{
-		//string p; //zastapione przez string e
 		cout << "Marka samochodu: "; cin >> e;
 		for (int j = 0; j < i; j++)
 		{
@@ -365,16 +388,19 @@ while (temp3 != 0)
 				cout << "Moc: " << kat[j].moc << endl;
 				cout << "Przebieg: " << kat[j].przebieg << endl;
 				if (kat[j].skrzynia == 1)
+				{
 					cout << "Skrzynia: Manualna" << endl << endl;
+				}
 				else
+				{
 					cout << "Skrzynia: Automatyczna" << endl << endl;
+				}
 			}
 		}
 		break;
 	}
 	case 10:
 	{
-		//string p; // zast przez string e
 		cout << "Model samochodu: "; cin >> e;
 		for (int j = 0; j < i; j++)
 		{
@@ -387,9 +413,13 @@ while (temp3 != 0)
 				cout << "Moc: " << kat[j].moc << endl;
 				cout << "Przebieg: " << kat[j].przebieg << endl;
 				if (kat[j].skrzynia == 1)
+				{
 					cout << "Skrzynia: Manualna" << endl << endl;
+				}
 				else
+				{
 					cout << "Skrzynia: Automatyczna" << endl << endl;
+				}
 			}
 		}
 		break;
@@ -399,7 +429,7 @@ while (temp3 != 0)
 }
 void posortowane(int i, samochod kat[])
 {
-	//int temp2;
+	int temp2;
 	cout << "1. Sortowanie po przebiegu." << endl;
 	cout << "2. Sortowanie po pojemnosci silnika." << endl;
 	cout << "3. Sortowanie po ilosci konii mechanicznych." << endl;
@@ -415,7 +445,10 @@ void quick_sort(samochod tab[], int lewy, int prawy, int par)
 	{
 	case 1:
 	{
-		if (prawy <= lewy) return;
+		if (prawy <= lewy)
+		{
+			return;
+		}
 
 		int i = lewy - 1, j = prawy + 1,
 			srodek = tab[(lewy + prawy) / 2].przebieg; //punkt œrodkowy
@@ -431,21 +464,29 @@ void quick_sort(samochod tab[], int lewy, int prawy, int par)
 			//jesli liczniki sie nie minely to zamieñ elementy ze soba
 			//stojace po niewlasciwej stronie elementu pivot
 			if (i <= j)
-
-				swap(tab,i,j);
+			{
+				swap(tab, i, j);
+			}
 			else
 				break;
 		}
 		if (j > lewy)
+		{
 			quick_sort(tab, lewy, j, par);
+		}
 		if (i < prawy)
+		{
 			quick_sort(tab, i, prawy, par);
+		}
 
 		break;
 	}
 	case 2:
 	{
-		if (prawy <= lewy) return;
+		if (prawy <= lewy)
+		{
+			return;
+		}
 
 		int i = lewy - 1, j = prawy + 1,
 			srodek = tab[(lewy + prawy) / 2].pojemnosc; //punkt œrodkowy
@@ -461,21 +502,28 @@ void quick_sort(samochod tab[], int lewy, int prawy, int par)
 			//jesli liczniki sie nie minely to zamieñ elementy ze soba
 			//stojace po niewlasciwej stronie elementu pivot
 			if (i <= j)
-
+			{
 				swap(tab, i, j);
+			}
 			else
 				break;
 		}
 		if (j > lewy)
+		{
 			quick_sort(tab, lewy, j, par);
+		}
 		if (i < prawy)
+		{
 			quick_sort(tab, i, prawy, par);
+		}
 		break;
 	}
 	case 3:
 	{
-		if (prawy <= lewy) return;
-
+		if (prawy <= lewy)
+		{
+			return;
+		}
 		int i = lewy - 1, j = prawy + 1,
 			srodek = tab[(lewy + prawy) / 2].moc; //punkt œrodkowy
 
@@ -490,21 +538,28 @@ void quick_sort(samochod tab[], int lewy, int prawy, int par)
 			//jesli liczniki sie nie minely to zamieñ elementy ze soba
 			//stojace po niewlasciwej stronie elementu pivot
 			if (i <= j)
-
+			{
 				swap(tab, i, j);
+			}
 			else
 				break;
 		}
 		if (j > lewy)
+		{
 			quick_sort(tab, lewy, j, par);
+		}
 		if (i < prawy)
+		{
 			quick_sort(tab, i, prawy, par);
+		}
 		break;
 	}
 	case 4:
 	{
-		if (prawy <= lewy) return;
-
+		if (prawy <= lewy)
+		{
+			return;
+		}
 		int i = lewy - 1, j = prawy + 1,
 			srodek = tab[(lewy + prawy) / 2].rocznik; //punkt œrodkowy
 
@@ -519,15 +574,20 @@ void quick_sort(samochod tab[], int lewy, int prawy, int par)
 			//jesli liczniki sie nie minely to zamieñ elementy ze soba
 			//stojace po niewlasciwej stronie elementu pivot
 			if (i <= j)
-
+			{
 				swap(tab, i, j);
+			}
 			else
 				break;
 		}
 		if (j > lewy)
+		{
 			quick_sort(tab, lewy, j, par);
+		}
 		if (i < prawy)
+		{
 			quick_sort(tab, i, prawy, par);
+		}
 		break;
 	}
 	default:

@@ -1,3 +1,5 @@
-﻿  samochod.cpp
-C:\Users\Kamil\source\repos\Katalog 2\Katalog 2\samochod.cpp(451,11): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+﻿  main.cpp
+  samochod.cpp
+C:\Users\Kamil\source\repos\Katalog 2\Katalog 2\samochod.cpp(492,11): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+  Generowanie kodu...
   Katalog 2.vcxproj -> C:\Users\Kamil\source\repos\Katalog 2\Debug\Katalog 2.exe

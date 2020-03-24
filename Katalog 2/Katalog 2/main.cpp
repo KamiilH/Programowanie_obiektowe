@@ -84,7 +84,10 @@ int main()
 		}
 		case 5:
 		{
-			if (l < 0)l = 0; //bo bez wczytania l=-1
+			if (l < 0)
+			{
+				l = 0; //bo bez wczytania l=-1
+			}
 			katalog = dodaj(&l, katalog);
 			break;
 		}
