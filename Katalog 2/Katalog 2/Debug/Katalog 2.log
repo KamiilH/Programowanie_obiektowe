@@ -1,5 +1,328 @@
 ﻿  main.cpp
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\main.cpp(43,38): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\main.cpp(44,38): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\main.cpp(45,39): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\main.cpp(46,42): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\main.cpp(47,36): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\main.cpp(48,41): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\main.cpp(49,21): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
   samochod.cpp
-C:\Users\Kamil\source\repos\Katalog 2\Katalog 2\samochod.cpp(492,11): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(17,17): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(18,17): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(19,17): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(20,17): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(21,17): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(22,17): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(23,17): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(40,17): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(41,17): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(42,17): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(43,17): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(44,17): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(45,17): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(46,17): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(63,10): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(63,25): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(64,10): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(64,25): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(65,10): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(65,27): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(66,10): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(66,29): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(67,10): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(67,23): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(68,10): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(68,28): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(69,10): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(69,28): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(76,33): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(77,33): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(78,35): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(79,48): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(80,39): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(81,36): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(82,85): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(100,12): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(100,27): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(101,12): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(101,27): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(102,12): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(102,29): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(103,12): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(103,31): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(104,12): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(104,25): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(105,12): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(105,30): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(106,12): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(106,30): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(110,12): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(110,31): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(111,12): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(111,31): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(112,12): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(112,33): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(113,12): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(113,35): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(114,12): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(114,29): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(115,12): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(115,34): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(116,12): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(116,34): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(136,29): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(137,30): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(138,31): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(139,34): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(140,28): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(141,33): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(142,13): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(184,14): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(186,32): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(187,32): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(188,33): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(189,36): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(190,30): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(191,35): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(192,15): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(209,14): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(211,32): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(212,32): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(213,33): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(214,36): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(215,30): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(216,35): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(217,15): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(234,14): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(236,32): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(237,32): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(238,33): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(239,36): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(240,30): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(241,35): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(242,15): error C2248: "samochod::skrzynia": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(16): message : zobacz deklarację „samochod::skrzynia”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(259,14): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(261,32): error C2248: "samochod::marka": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::marka”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(262,32): error C2248: "samochod::model": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(12): message : zobacz deklarację „samochod::model”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(263,33): error C2248: "samochod::rocznik": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::rocznik”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(264,36): error C2248: "samochod::pojemnosc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(14): message : zobacz deklarację „samochod::pojemnosc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(265,30): error C2248: "samochod::moc": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(13): message : zobacz deklarację „samochod::moc”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(266,35): error C2248: "samochod::przebieg": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "samochod"
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(15): message : zobacz deklarację „samochod::przebieg”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.h(9): message : zobacz deklarację „samochod”
+C:\Users\Kamil\source\repos\Programowanie_obiektowe\Katalog 2\Katalog 2\samochod.cpp(266,45): fatal error C1003: Licznik błędów przekracza 100; zatrzymywanie kompilacji
   Generowanie kodu...
-  Katalog 2.vcxproj -> C:\Users\Kamil\source\repos\Katalog 2\Debug\Katalog 2.exe

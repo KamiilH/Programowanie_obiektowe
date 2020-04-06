@@ -1,8 +1,0 @@
-Fiat Ducato 2009 2.5 180 320640 1
-Iveco Daily 2018 3 180 200549 1
-Ford Edge 2018 2 120 2950 0
-Hyundai Tuscon 2015 2 213 128400 0
-Audi A6 2012 3 432 201000 1
-McLaren 650S 2016 3.8 650 27000 0
-Opel Insignia 2004 2 170 213500 0
-Lamborghini Aventador 2016 6.5 700 12486 1

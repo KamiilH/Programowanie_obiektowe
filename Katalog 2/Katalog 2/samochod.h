@@ -6,13 +6,15 @@
 #include <fstream>
 using namespace std;
 
-struct samochod
+class samochod
 {
 	string marka, model;
 	short int rocznik, moc;
 	float pojemnosc;
 	int przebieg;
 	bool skrzynia; //0-manual, 1-automat
+public:
+
 };
 
 samochod* wczytaj(int* i);
