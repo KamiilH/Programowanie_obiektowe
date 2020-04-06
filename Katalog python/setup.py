@@ -1,9 +1,9 @@
-import os                                   #wut?
-from car import *                           #co on pobiera, co oznacza ta *
+import os
+from car import *
 clear = lambda: os.system("cls")
 funkcja = True
-cars = []                                   #co robi to
-with open("katalog.txt", "r+") as f:        #po co jest "r+" i co oznacza 'as f:'
+cars = []
+with open("katalog.txt", "r+") as f:
     for line in f:
         cars.append(Car(*line.split()))
 
@@ -41,7 +41,7 @@ while funkcja:
         print("4. Sortowanie po roku produkcji")
         tmp2 = int(input("Wybieram opcję: "))
         if tmp2 == 1:
-            sorted_arr = sorted(cars, key=lambda x: x.przebieg)          #co znaczy to key=lambda x: x.mileage
+            sorted_arr = sorted(cars, key=lambda x: x.przebieg)
             for car in sorted_arr:
                 car.show()
         if tmp2 == 2:
@@ -123,16 +123,16 @@ while funkcja:
         a1 = input("Marka: ")
         b1 = input("Model: ")
         c1 = int(input("Rok: "))
-        d1 = float(input("Pojemność: "))               #Xzmieniłem int na float, mam nadzieje że nic nie zjebałem
-        e1 = int(input("Moc: "))                       #Xgdy dodajemy samochod, to jest on zapisywany w katalogu w tej samej linii
-        f1 = int(input("Przebieg: "))                  #Xco ostatni, przez co po wyłączeniu program się nie chce już włączyć
+        d1 = float(input("Pojemność: ")) 
+        e1 = int(input("Moc: "))
+        f1 = int(input("Przebieg: "))
         g1 = int(input("Skrzynia biegów (1 - automatyczna, 0 - manualna): "))
         cars.append(Car(a1, b1, c1, d1, e1, f1, g1))
-        with open("katalog.txt", "a") as f:                             #Xpo co to "a" i as f
+        with open("katalog.txt", "a") as f:
             f.write(f"{a1} {b1} {c1} {d1} {e1} {f1} {g1}\n")
-    if wybor == 6:                                                                 #tutaj w ogóle co robi każda z linii gdy chcemy usunąć ostatniego,
-        x = int(input("Samochód o jakim numerze chcesz usunąć? (1-{}): ".format(ilosc)))                   # to z katalogu znika 1. chociaż gdy zaraz po usunięciu
-        cars.pop(x-1)                                                               #x-1(bez wyłączania programu) wyswietlimy liste, to pokaze dobrze
+    if wybor == 6: 
+        x = int(input("Samochód o jakim numerze chcesz usunąć? (1-{}): ".format(ilosc)))
+        cars.pop(x-1) 
         with open("katalog.txt", "r") as f:
             lines = f.readlines()
         with open("katalog.txt", "w") as f:
